@@ -51,10 +51,10 @@ In all of the places where you're supposed to fill your information you'll find 
     <div class="header__text">
         <h1 class="heading-primary">
         <!-- Replace the following name with your name -->
-        <span>Syed Ali Hussnain</span>
+        <span>Fix My Computer</span>
         </h1>
         <!-- Put a small paragraph about yourself -->
-        <p>A Web Developer based in Lahore, Pakistan.</p>
+        <p>A Company based in Stockholm, Sweden .</p>
         <a href="#contact" class="btn btn--pink">Get in touch</a>
     </div>
 </div>
@@ -67,22 +67,22 @@ Each div with class `work__box` represents a project, replace the contents of th
 ```html
 <div class="work__box">
     <div class="work__text">
-    <h3>Portfolio Template</h3>
+    <h3>Our Services</h3>
     <p>
-        A free Open Source Portfolio for anyone to use for free.
+        we provide the best IT solution for everyone.
     </p>
     <ul class="work__list">
-        <li>HTML</li>
-        <li>SCSS</li>
-        <li>JavaScript</li>
-        <li>Parcel</li>
+        <li>Software Consultation</li>
+        <li>Data recovery</li>
+        <li>Performance</li>
+        <li>Software subscription & recommendation</li>
     </ul>
 
     <div class="work__links">
         <a href="#" class="link__text">
         Visit Site <span>&rarr;</span>
         </a> 
-        <a href="https://github.com/nisarhassan12/portfolio" target="_blank">
+        <a href="https://github.com/crazyslim021/portfolio" target="_blank">
         <img src="./images/github.svg" class="work__code" alt="GitHub">
         </a>
     </div>
@@ -132,15 +132,15 @@ For changing the screenshot:
 ```html
 <section class="about" id="about">
     <div class="row">
-        <h2>About Me</h2>
+        <h2>About Us</h2>
         <div class="about__content">
             <div class="about__text">
                 <!-- Replace the below paragraph with info about yourself -->
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
-                nostrum illo harum blanditiis, tenetur eum suscipit cupiditate
-                in vel, ex quam quidem quos mollitia labore aut sunt eius
-                ratione molestiae fuga veniam facere similique voluptate.
+                we’re passionate about making technology work for you. Whether you're facing performance issues with your PC, need expert software repairs, or are simply                    looking for the best software recommendations and subscriptions, we've got you covered.
+                We specialize in providing reliable, efficient, and personalized IT solutions to individuals and businesses alike. Our team of tech experts is committed to                  diagnosing problems quickly, offering clear guidance, and delivering effective results — all while keeping your digital world running smoothly.
+                From boosting your system’s performance to helping you choose the right software tools for your needs, we take the hassle out of tech so you can focus on                    what matters most.
+                Let us handle the tech, so you can stay productive and stress-free.
                 </p>
                 <!-- Provide a link to your resume -->
                 <a href="#" class="btn">My Resume</a>
