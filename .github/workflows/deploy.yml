@@ -25,4 +25,4 @@ jobs:
         run: npm run build  # Adjust this if your build command is different
 
       - name: Deploy to Surge
-        run: npx surge ./dist ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
+        run: npx surge ./ fixmypc.surge.sh --token ${{ secrets.SURGE_TOKEN }}
